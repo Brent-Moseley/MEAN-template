@@ -2,3 +2,22 @@
   margin-left: 200px;
   margin-top: 25px;
 }
+
+th, td {
+  text-align: center;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+#item input {
+  margin: 3px;
+  width: 180px;
+}
+
+#item button {
+  width: 60px;
+  margin-top: 3px;
+  font-size: 15px;
+  background-color: #EEE;
+  border-radius: 6px;
+}

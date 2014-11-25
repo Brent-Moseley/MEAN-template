@@ -1,4 +1,5 @@
 <!-- public/index.html -->
+<!-- View this at:  http://localhost:8080/#/   once server started with 'npm start' -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,7 +9,6 @@
   <title>Starter Node and Angular App</title>
 
   <!-- CSS -->
-  <!-- <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
 
   <!-- JS -->
@@ -33,7 +33,7 @@
 
       <!-- LINK TO OUR PAGES. ANGULAR HANDLES THE ROUTING HERE -->
       <ul>
-        <li><a href="/items">Items</a></li>
+        <li><a href="/#/items">Items</a></li>    <!-- # indicates to get route within Angular, NOT the Node server -->
       </ul>
     </nav>
 

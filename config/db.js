@@ -1,4 +1,4 @@
 // config/db.js
     module.exports = {
-        url : 'mongodb://localhost/stencil-dev'
+        url : 'mongodb://localhost/sample-dev'     // create this DB before running
     }

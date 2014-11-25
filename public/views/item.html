@@ -1,8 +1,20 @@
 <!-- public/views/item.html -->
 
-<div>
-    <h1>All Items</h1>
+<div id="item">
+  <h1>All Items:</h1>
+  <p>{{ tagline }}</p>
 
-    <p>{{ tagline }}</p>
-    
+  <table>
+    <th width="180">Name</th>
+    <th width="130">Modify</th>
+    <tr ng-repeat="item in items">
+      <td>{{item.name}}</td>
+      <td><a href="" ng-click="remove(item._id)">Remove</a></td>
+    </tr>
+  </table>
+  <br>
+  Add a new one:<br>
+  <input type="text" ng-model="newOne"/>
+  <button ng-click="addOne(newOne)">Add</button>
+
 </div>
