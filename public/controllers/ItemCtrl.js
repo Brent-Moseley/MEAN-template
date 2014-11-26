@@ -8,6 +8,7 @@ app.controller('ItemController', function($scope, itemService) {
       .then(function(data) {
           // promise fulfilled
           if (data) $scope.items = data;
+          $scope.newOne = '';
       });
       // Add some error handling here.
   }
