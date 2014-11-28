@@ -7,14 +7,11 @@ body {
 	background-color: Gray !important;
 }
 
-.container {
+.mine {
+	border: 0.20em solid SaddleBrown !important;
+	border-radius: 0.5em !important;
+	background-color: OldLace !important;
 	margin: 0 auto;
-	width: 62.5rem;
-	margin-top: 1.5rem;
-	padding: 2rem;
-	border: 0.20rem solid SaddleBrown;
-	border-radius: 0.6rem;
-	background-color: OldLace;
 }
 
 th, td {
@@ -31,4 +28,9 @@ th, td {
 
 #item button {
   display: inline-block;
+}
+
+.row{
+	width: 100% !important; 
+	min-width: 100% !important;
 }
